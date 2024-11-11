@@ -1,65 +1,65 @@
-# """In Python, control statements manage the flow of execution in a program. 
-# They allow you to make decisions, repeat tasks, or control when specific blocks 
-# of code are executed. The main types of control statements are:"""
-# #control statements are classified into three types
-# '''they are
-# 1,selection or conditional statement
-# 2,sequence
-# 3,iteration or looping'''
-# #selection control statements
-# #seleection control statements are usually knows as These are used to execute code based on certain conditions.
-# '''1,if-->do or dont
-#    2,elif--> based on the true or false of condition do this or otherwise do that
-#    3,else-->based on the true or false of given condition choose one from many'''
-# print("Example of if Statement")
-# order=int(input("Enter order price:"))
-# minimum_price=500
-# delivery=50
-# total_price=order+delivery
+"""In Python, control statements manage the flow of execution in a program. 
+They allow you to make decisions, repeat tasks, or control when specific blocks 
+of code are executed. The main types of control statements are:"""
+#control statements are classified into three types
+'''they are
+1,selection or conditional statement
+2,sequence
+3,iteration or looping'''
+#selection control statements
+#seleection control statements are usually knows as These are used to execute code based on certain conditions.
+'''1,if-->do or dont
+   2,elif--> based on the true or false of condition do this or otherwise do that
+   3,else-->based on the true or false of given condition choose one from many'''
+print("Example of if Statement")
+order=int(input("Enter order price:"))
+minimum_price=500
+delivery=50
+total_price=order+delivery
 
-# if order > minimum_price:
-#    delivery=0
-# total_price=order+delivery
-# print(f"{total_price} is your order price")#here space before print statement is known as indentation which is required in pyhton
+if order > minimum_price:
+   delivery=0
+total_price=order+delivery
+print(f"{total_price} is your order price")#here space before print statement is known as indentation which is required in pyhton
 
-# print("Check Whether given number is even or not")
-# num=int(input("Enter a number Which want to check"))
-# if num%2==0:
-#    print(f"{num} is an even number")
-# else:
-#    print(f"{num} is not an event number")   
+print("Check Whether given number is even or not")
+num=int(input("Enter a number Which want to check"))
+if num%2==0:
+   print(f"{num} is an even number")
+else:
+   print(f"{num} is not an event number")   
    
-# print("Checking username and password by if else statement")   
-# username=input("Enter user name:")
-# password=input("Enter your password:")
+print("Checking username and password by if else statement")   
+username=input("Enter user name:")
+password=input("Enter your password:")
 
-# if username=="Adeepreddy" and password=="Adeepreddy@21":
-#     print("You sucessfully login")
-# else:
-#     print("Sorry Your username or Password is worng")
+if username=="Adeepreddy" and password=="Adeepreddy@21":
+    print("You sucessfully login")
+else:
+    print("Sorry Your username or Password is worng")
 
 
 
-# print("Example of if else statement")  
-# # Input: Ask the user for their age
-# age=int(input("Enter your age:"))
-# #Check whether the age is eligiable to vote or not
-# eligible=18
-# if age>eligible:
-#    print(f"{age} is eligible for vote")
-# else:
-#    print(f"{age} is not eligible for vote")   
+print("Example of if else statement")  
+# Input: Ask the user for their age
+age=int(input("Enter your age:"))
+#Check whether the age is eligiable to vote or not
+eligible=18
+if age>eligible:
+   print(f"{age} is eligible for vote")
+else:
+   print(f"{age} is not eligible for vote")   
    
 
-# print("Example for if elif else Statement")   
-# #cheeck whether the give number is positive or negative
-# number=int(input("Enter any number:")) 
-# if number>0:
-#    print(f"{number} is a positive number")
-# elif number==0:
-#    print(f"{number} is zero")
-# else :
-#    print(f"{number} is negative number")      
+print("Example for if elif else Statement")   
+#cheeck whether the give number is positive or negative
+number=int(input("Enter any number:")) 
+if number>0:
+   print(f"{number} is a positive number")
+elif number==0:
+   print(f"{number} is zero")
+else :
+   print(f"{number} is negative number")      
    
 print("Another example for nested if")   
 marks=int(input("Enter your marks:"))
